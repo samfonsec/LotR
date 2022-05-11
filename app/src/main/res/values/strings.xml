@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">LotR Wiki</string>
+
+    <string name="page_title">the Lord of the Rings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_security">Security</string>
+    <string name="characters_toolbar_title">Characters</string>
+    <string name="quotes_toolbar_title">Quotes</string>
+
+    <string name="bt_more_details">More Details</string>
+    <string name="bt_quotes">Quotes</string>
+
+    <string name="birth_format">Birth: %s</string>
+    <string name="death_format">Death: %s</string>
+    <string name="spouse_format">Spouse: %s</string>
+    <string name="height_format">Height: %s</string>
+    <string name="hair_format">Hair: %s</string>
+    <string name="realm_format">Realm: %s</string>
+
+    <string name="error_short_message">Something went wrong!</string>
+    <string name="error_message">Nothing to be found here.\nBut not all those who wander are Lost!</string>
+    <string name="error_action">Try again</string>
+
+    <string name="saved_as_favorite">Added to favorites list</string>
+    <string name="removed_from_favorite">Removed from favorites list</string>
+    <string name="label_create_pin">The danger is real!\n\nYou can create a P I N to protect your app.\n\nIt will be required every time the app is opened.</string>
+    <string name="label_remove_pin">We are at peace!\n\nYou can remove the security P I N.\n\nBut be careful, the app will no longer be protected.</string>
+    <string name="action_create_pin">Create P I N</string>
+    <string name="action_remove_pin">Remove P I N</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="invalid_pin">You shall not pass! invalid PIN</string>
+
+    <string name="pin_helper_text">The PIN must have 4 digits.</string>
+    <string name="enable_fingerprint">Enable access with fingerprint</string>
+
+    <string name="message_pin_created">P I N created!</string>
+    <string name="message_pin_removed">P I N removed!</string>
+
+    <string name="label_require_pin_info">Insert your PIN to continue.</string>
+    <string name="use_fingerprint">Access with fingerprint</string>
+
+    <string name="action_insert_pin">Use PIN</string>
+
+</resources>

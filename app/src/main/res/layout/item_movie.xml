@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/default_dimen"
+    android:layout_marginVertical="@dimen/small_dimen"
+    android:foreground="?selectableItemBackgroundBorderless"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/secondaryLightColor"
+    app:cardCornerRadius="@dimen/medium_radius">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/default_dimen"
+        android:paddingVertical="@dimen/medium_dimen">
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbFavorite"
+            android:layout_width="28dp"
+            android:layout_margin="@dimen/small_dimen"
+            android:layout_height="28dp"
+            android:background="@drawable/ic_favorite_selector"
+            android:button="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/small_dimen"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/cbFavorite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="The Return of the King" />
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/x_small_dimen"
+            android:gravity="center_vertical"
+            android:textColor="?colorAccent"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/ic_rating_16"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/tvName"
+            app:layout_constraintStart_toStartOf="@id/tvName"
+            app:layout_constraintTop_toBottomOf="@id/tvName"
+            tools:text="95" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

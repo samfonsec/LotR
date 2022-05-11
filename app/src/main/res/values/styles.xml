@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Lotr.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_state_color</item>
+        <item name="itemTextColor">@color/bottom_nav_state_color</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="backgroundTint">@color/primaryDarkColor</item>
+        <item name="menu">@menu/bottom_nav_menu</item>
+    </style>
+
+    <style name="Widget.Lotr.InformativeText" parent="Widget.AppCompat.TextView">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_default</item>
+    </style>
+
+    <style name="Widget.Lotr.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">@dimen/medium_radius</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="Widget.Lotr.TextInput" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="hintEnabled">false</item>
+        <item name="boxStrokeErrorColor">@color/errorColor</item>
+        <item name="errorTextColor">@color/errorColor</item>
+        <item name="errorIconDrawable">@null</item>
+        <item name="boxStrokeColor">@color/primaryLightTextColor</item>
+        <item name="helperTextTextColor">@color/primaryLightTextColor</item>
+        <item name="endIconTint">@color/primaryLightTextColor</item>
+    </style>
+
+    <style name="Widget.Lotr.EditText.Pin" parent="Widget.AppCompat.EditText">
+        <item name="android:backgroundTint">@color/primaryColor</item>
+        <item name="android:maxLength">4</item>
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:textColor">@color/primaryLightTextColor</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="theme">@style/ThemeOverlay.Lotr.Cursor</item>
+    </style>
+
+    <style name="ThemeOverlay.Lotr.Cursor" parent="Widget.AppCompat.EditText">
+        <item name="colorControlActivated">@color/primaryLightTextColor</item>
+    </style>
+
+</resources>

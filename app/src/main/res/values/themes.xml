@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Lotr" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorControlNormal">@color/primaryLightTextColor</item>
+        <item name="colorControlHighlight">@color/primaryLightColorAlpha</item>
+        <item name="android:windowBackground">@color/primaryColor</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:fontFamily">@font/lotr</item>>
+        <item name="bottomNavigationStyle">@style/Widget.Lotr.BottomNavigationView</item>>
+    </style>
+
+    <style name="Theme.Lotr.TransparentStatusBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

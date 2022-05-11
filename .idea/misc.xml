@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable-v24/bg_rounded_dialog.xml" value="0.5140625" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable-v24/ic_fingerprint_24.xml" value="0.5140625" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_arrow_back_24.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_arrow_forward_24.xml" value="0.3151041666666667" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_arrow_upward_24.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_close_24.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_favorite.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_favorite_24.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_favorite_border_24.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_favorite_selector.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_home.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_lock_24.xml" value="0.5140625" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_people_search.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_rating_16.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_rating_24.xml" value="0.3151041666666667" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_ring.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_ring_24.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_ring_40.xml" value="0.5140625" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_rotten_tomatoes.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_rotten_tomatoes_16.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/drawable/ic_sauron.xml" value="0.5286458333333334" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/font/montserrat.xml" value="0.546875" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/act_auth.xml" value="0.49375" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/act_main.xml" value="0.33" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/bs_character_details.xml" value="0.5083333333333333" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/dialog_request_pin.xml" value="0.49375" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/error_view.xml" value="0.5083333333333333" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/frag_characters.xml" value="0.41743589743589743" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/frag_favorites.xml" value="0.5083333333333333" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/frag_home.xml" value="0.5" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/frag_quote.xml" value="0.49375" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/frag_security.xml" value="0.49375" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/frag_settings.xml" value="0.5083333333333333" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/item_character.xml" value="0.5083333333333333" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/item_movie.xml" value="0.49846782431052095" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/layout/item_quote.xml" value="0.49375" />
+        <entry key="..\:/Users/samfo/AndroidStudioProjects/LOTR/app/src/main/res/menu/bottom_nav_menu.xml" value="0.5083333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

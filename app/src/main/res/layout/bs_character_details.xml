@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightBackgroundColor"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/default_dimen"
+    android:paddingVertical="@dimen/small_dimen">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:padding="@dimen/x_small_dimen"
+        android:tint="@color/primaryTextColor"
+        app:srcCompat="@drawable/ic_close_24" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="@dimen/text_size_big"
+        tools:text="Tar-Míriel" />
+
+    <TextView
+        android:id="@+id/tvRace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x_small_dimen"
+        android:layout_marginBottom="@dimen/medium_dimen"
+        android:textAlignment="center"
+        android:textColor="?colorAccent"
+        android:textSize="@dimen/text_size_medium"
+        tools:text="Female Human" />
+
+    <TextView
+        android:id="@+id/tvBirth"
+        style="@style/Widget.Lotr.InformativeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="birth: sa 3117" />
+
+    <TextView
+        android:id="@+id/tvDeath"
+        style="@style/Widget.Lotr.InformativeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_dimen"
+        tools:text="death: sa 3319" />
+
+
+    <TextView
+        android:id="@+id/tvSpouse"
+        style="@style/Widget.Lotr.InformativeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_dimen"
+        tools:text="spouse: Ar-Pharazôn" />
+
+    <TextView
+        android:id="@+id/tvHeight"
+        style="@style/Widget.Lotr.InformativeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_dimen"
+        tools:text="height: 6'3" />
+
+    <TextView
+        android:id="@+id/tvHair"
+        style="@style/Widget.Lotr.InformativeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_dimen"
+        tools:text="hair: Reddish brown" />
+
+    <TextView
+        android:id="@+id/tvRealm"
+        style="@style/Widget.Lotr.InformativeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_dimen"
+        tools:text="realm: Númenor" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btQuotes"
+        style="@style/Widget.Lotr.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_dimen"
+        android:backgroundTint="@color/lightBackgroundColor"
+        android:text="@string/bt_quotes"
+        android:textColor="@color/primaryDarkColor"
+        app:cornerRadius="@dimen/medium_radius"
+        app:rippleColor="@color/secondaryLightColor" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btWiki"
+        style="@style/Widget.Lotr.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_more_details"
+        android:textColor="@color/primaryLightTextColor"
+        app:cornerRadius="@dimen/medium_radius"
+        app:rippleColor="@color/secondaryLightColor"
+        app:strokeColor="@color/primaryColor" />
+
+
+</LinearLayout>
